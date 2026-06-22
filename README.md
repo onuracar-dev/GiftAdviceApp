@@ -1,16 +1,66 @@
-# React + Vite
+# 📰 Hediye Gazetesi | The Gift Chronicle
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[TR] Klişe hediyelere ve yapay zeka jeneriği (*AI slop*) tasarımlara karşı direnen, tamamen yerel kurallarla çalışan, fiziksel hisli ve esprili hediye tavsiye motoru.
 
-Currently, two official plugins are available:
+[EN] A curated retro-zine style gift advice engine built to resist cookie-cutter layouts. Runs 100% offline with tactile mechanical controls and a witty conversational voice.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🇹🇷 Türkçe Açıklama
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Hediye Gazetesi, internetteki birbirinin kopyası hediye sitelerinden ve ruhsuz "yapay zeka jeneriği" tasarımlardan sıkılanlar için tasarlanmış bağımsız bir rehberdir. Kullanıcı arayüzü eski basılı gazete kupürü ve zine (bağımsız mini dergi) kültüründen ilham almıştır.
 
-## Expanding the ESLint configuration
+### Öne Çıkan Özellikler:
+- **%100 Samimi & İnsani Dil:** Robot elinden çıkmış formal metinler yerine, tamamen günlük hayattan, esprili ve dürüst editör yorumları.
+- **Mekanik Kadran Kontrolleri:** Bütçenizi ve alıcıyla olan samimiyet derecenizi eski tip kadranları ve çarkları döndürerek seçin.
+- **Gazete İlanı Kart Destesi:** Size sunulan hediye önerilerini basılı ilan kartları şeklinde inceleyin. İlanı geçmek için kartı tutup sağa/sola fırlatmanız (swipe) yeterlidir.
+- **Panoya Kopyalama ve Paylaşım:** Beğendiğiniz hediyelerin analiz raporunu tek tıkla panoya kopyalayıp paylaşabilirsiniz.
+- **Güvenli & Çevrimdışı (Offline-First):** Herhangi bir veritabanı veya API anahtarı gerektirmeden, 100% istemci tarafında (client-side) anında çalışır.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Kurulum ve Çalıştırma:
+Projeyi yerel bilgisayarınızda çalıştırmak için:
+
+```bash
+# Bağımlılıkları yükleyin
+npm install
+
+# Geliştirici sunucusunu başlatın
+npm run dev
+
+# Üretim çıktısını derleyin (dist klasöründe oluşur)
+npm run build
+```
+
+---
+
+## 🇺🇸 English Description
+
+The Gift Chronicle is an independent recommendation zine designed for those who are tired of identical gift list websites and soulless "AI slop" designs. The visual interface takes inspiration from classic print newspapers and vintage community brochures.
+
+### Key Features:
+- **100% Human Voice:** Replaces generic bot replies with humorous, conversational, and honest editor analysis reports.
+- **Mechanical Dial Controls:** Adjust your budget constraints and relationship closeness using physical retro dial sliders.
+- **Classified Ads Deck:** Explore gift options formatted as vintage newspaper ads. Swipe or throw the card away to discard, or read the detailed report to keep it.
+- **HTTPS-Safe Clipboard Sharing:** Copy detailed gift logs and recipes to the clipboard with one click (includes robust HTTP/HTTPS safety fail-safes).
+- **Fast & Fully Offline:** Requires no backend databases or API keys. Runs instantly in the client browser.
+
+### Installation and Usage:
+To launch the project locally:
+
+```bash
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
+
+# Generate production assets (inside the dist folder)
+npm run build
+```
+
+---
+
+## 🛠️ Teknolojiler | Tech Stack
+- **Framework:** React 19 + Vite 8
+- **Stil / Styling:** Vanilla CSS (El yapımı / Custom CSS Variables & Flexbox/Grid)
+- **Paketleme / Build:** ES6 Modules & Oxc Compiler
